@@ -1,0 +1,32 @@
+Install Anaconda  from here : https://www.anaconda.com/download
+
+1. conda create --name cvpr python=3.8
+
+2. conda activate cvpr
+
+3. conda install nb_conda
+
+4. conda deactivate
+
+5. conda activate cvpr
+`````````````````````````````````````````````````````````````````````````````````````````````````````````
+From here follow this video if you have nvidia GPU : (https://www.youtube.com/watch?v=NrJz3ACosJA)
+
+then skip to No: 8
+`````````````````````````````````````````````````````````````````````````````````````````````````````````
+6. conda install -c anaconda tensorflow
+
+7. pip install tensorflow
+
+8. conda install -c anaconda ipykernel
+
+9. python -m ipykernel install --user --name=cvpr
+
+
+10(Optional): pip install numpy==1.23.4 (if tensorflow shows any numpy.obj error)
+
+11. pip install pandas
+
+12. pip install scikit-learn
+
+13. pip install matplotlib
